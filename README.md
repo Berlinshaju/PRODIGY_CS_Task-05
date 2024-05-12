@@ -23,6 +23,7 @@ __-w http.txt__: Writes captured packets to http.txt file.
 wireshark http.txt
 
 __wireshark__: Graphical packet analyzer.
+
 __http.txt__: Packet capture file to be analyzed.
 
 # 3. View Packet Capture Details:
@@ -30,13 +31,14 @@ __http.txt__: Packet capture file to be analyzed.
 tcpdump -r http.txt
 
 __tcpdump__: Command-line packet analyzer.
+
 __-r http.txt__: Reads and displays contents of http.txt packet capture file.
 
 # Summary:
-The tcpdump command was used to capture network traffic destined for IP address 192.168.1.7 on interface eth0, specifically targeting HTTP traffic.
+The tcpdump command was used to capture network traffic destined for IP address __192.168.1.7__ on interface __eth0__, specifically targeting HTTP traffic.
 The captured packets were written to a file named http.txt for further analysis.
 Wireshark was utilized to visually analyze the captured packets, allowing for in-depth inspection of protocols, packet contents, and network behavior.
 Additionally, tcpdump was used to display packet capture details directly in the terminal window.
 
-Conclusion:
+# Conclusion:
 The combination of tcpdump and Wireshark provides comprehensive tools for network traffic analysis, facilitating the identification of network issues, security threats, and protocol anomalies.
